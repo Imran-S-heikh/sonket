@@ -1,3 +1,3 @@
-import { Num } from './Num'
+import Store from './lib/sonket';
 
-export { Num }
+export default Store;
