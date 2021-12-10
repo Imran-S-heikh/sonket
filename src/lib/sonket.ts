@@ -21,7 +21,7 @@ class Store<T>{
         return this.state;
     }
 
-    subscribe(event: Token, callback: Callback<T>,init: boolean = true) {
+    subscribe(event: Token, callback: Callback<T>, init: boolean = true) {
 
         if (init) {
             callback(this.state);
